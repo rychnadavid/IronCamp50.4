@@ -18,16 +18,18 @@
 <body class="bg-zinc-900 text-zinc-300">
     <!-- Hero Sekce -->
     <header class="hero-bg min-h-screen flex flex-col justify-center items-center text-center p-6">
-        <div class="mb-4 inline-block px-3 py-1 rounded-full border border-zinc-700 bg-zinc-800/50 text-sm font-semibold tracking-wider text-emerald-500 uppercase">
-            Est. in Železnice
-        </div>
         <h1 class="text-5xl md:text-7xl font-extrabold text-white mb-4 tracking-tight">IronCamp <span class="text-emerald-500">50.4</span></h1>
         <p class="text-xl md:text-2xl mb-8 max-w-2xl text-zinc-200">Dobrodružství začíná na střeše. Půjčovna prémiových autostanů pro tvé expedice.</p>
         <a href="#rezervace" class="bg-emerald-500 hover:bg-emerald-400 text-zinc-900 font-bold py-4 px-8 rounded-full transition-all text-lg shadow-[0_0_15px_rgba(16,185,129,0.4)]">Chci vyrazit ven</a>
     </header>
 
+    <!-- Ukázka stanu (Tvoje fotka přesunutá nahoru) -->
+    <section class="px-6 pt-20 pb-10 max-w-5xl mx-auto">
+        <img src="20260815_102322.jpg" alt="Autostan IronCamp 50.4 na střeše" class="w-full rounded-2xl border border-zinc-700 shadow-[0_10px_30px_rgba(0,0,0,0.5)] object-cover max-h-[600px]">
+    </section>
+
     <!-- Výhody a Specifikace -->
-    <section class="py-20 px-6 max-w-5xl mx-auto">
+    <section class="pb-20 pt-6 px-6 max-w-5xl mx-auto">
         <div class="grid md:grid-cols-3 gap-8">
             <div class="bg-zinc-800/50 p-8 rounded-2xl border border-zinc-700 hover:border-emerald-500 transition-colors">
                 <h3 class="text-2xl font-bold text-white mb-3">Hliníková skořepina</h3>
@@ -44,28 +46,32 @@
         </div>
     </section>
 
-    <!-- Ukázka stanu (Tvoje fotka) -->
-    <section class="px-6 pb-20 max-w-5xl mx-auto">
-        <img src="20260815_102322.jpg" alt="Autostan IronCamp 50.4" class="w-full rounded-2xl border border-zinc-700 shadow-[0_10px_30px_rgba(0,0,0,0.5)] object-cover max-h-[600px]">
-    </section>
-
     <!-- Rezervace a Kontakt -->
     <section id="rezervace" class="py-20 px-6 bg-zinc-950 text-center">
         <h2 class="text-3xl font-bold text-white mb-8">Rezervuj si svůj termín</h2>
-        <p class="mb-8 text-lg max-w-xl mx-auto">Stan ti předám a pomůžu namontovat přímo na auto (Železnice / Jičín). Pro zjištění dostupnosti a ceny mi rovnou zavolej nebo napiš.</p>
-        <div class="flex flex-col md:flex-row justify-center gap-6">
-            <a href="tel:+420731584434" class="inline-flex items-center justify-center gap-2 bg-zinc-800 hover:bg-zinc-700 text-white font-semibold py-3 px-6 rounded-lg border border-zinc-700 transition">
+        <p class="mb-8 text-lg max-w-xl mx-auto">Stan ti předám a pomůžu namontovat přímo na auto (Železnice / Jičín). Pro zjištění dostupnosti a ceny mi rovnou zavolej, napiš na WhatsApp nebo pošli e-mail.</p>
+        
+        <div class="flex flex-col md:flex-row justify-center gap-4">
+            <!-- Tlačítko Volat -->
+            <a href="tel:+420731584434" class="inline-flex items-center justify-center gap-2 bg-zinc-800 hover:bg-zinc-700 text-white font-semibold py-4 px-6 rounded-xl border border-zinc-700 transition">
                 📞 +420 731 584 434
             </a>
-            <a href="mailto:rychna.david@gmail.com" class="inline-flex items-center justify-center gap-2 bg-zinc-800 hover:bg-zinc-700 text-white font-semibold py-3 px-6 rounded-lg border border-zinc-700 transition">
-                ✉️ rychna.david@gmail.com
+            
+            <!-- Tlačítko WhatsApp -->
+            <a href="https://wa.me/420731584434" target="_blank" rel="noopener noreferrer" class="inline-flex items-center justify-center gap-2 bg-[#25D366] hover:bg-[#20b858] text-zinc-900 font-bold py-4 px-6 rounded-xl transition shadow-[0_0_15px_rgba(37,211,102,0.3)]">
+                💬 Napsat na WhatsApp
+            </a>
+
+            <!-- Tlačítko E-mail -->
+            <a href="mailto:rychna.david@gmail.com" class="inline-flex items-center justify-center gap-2 bg-zinc-800 hover:bg-zinc-700 text-white font-semibold py-4 px-6 rounded-xl border border-zinc-700 transition">
+                ✉️ E-mail
             </a>
         </div>
     </section>
 
     <!-- Patička -->
     <footer class="py-8 text-center border-t border-zinc-800 text-sm text-zinc-500">
-        <p>&copy; 2026 IronCamp 50.4 | Železnice. Všechna práva vyhrazena.</p>
+        <p>&copy; 2026 IronCamp 50.4. Všechna práva vyhrazena.</p>
     </footer>
 </body>
 </html>
